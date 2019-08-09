@@ -1,10 +1,11 @@
+
 var ask = prompt("Welcome. press 1 to count. press 2 to use a calculator. press q to quit."); {
 var b = 1;
 
 if (ask==="1") {
 	var c = prompt("count by ones or twos");
 	if (c=== "ones"){
-		var a = parseint(prompt("enter a number"));
+		var a = parseInt(prompt("enter a number"));
 	}
 } while ( b <= a ) {
 	b = b+1;
