@@ -1,14 +1,15 @@
 var ask = prompt("Welcome. press 1 to count. press 2 to use a calculator. press q to quit."); {
 var b = 1;
-if (ask ==="1") {
-	var c = parseInt(prompt("Enter a number(this will count by ones leading up that #)"));
- while(b < c) {
- 	b
- }
 
-
+if (ask==="1") {
+	var c = prompt("count by ones or twos");
+	if (c=== "ones"){
+		var a = parseint(prompt("enter a number"));
 	}
-
+} while ( b <= a ) {
+	b = b+1;
+	console.log(b);
+}
 
 if (ask==="2") {
 	var num1 = prompt("select 'a' for addition, or 's'for subtraction");
@@ -39,4 +40,4 @@ while (askMe !== "q"); {
 
 
 
-}
+ }
